@@ -30,7 +30,7 @@ var SectionsContainer = function (_React$Component) {
             activeSection: props.activeSection,
             scrollingStarted: false,
             sectionScrolledPosition: 0,
-            windowHeight: 0
+            windowHeight: window.innerHeight
         };
 
         _this._handleMouseWheel = _this._handleMouseWheel.bind(_this);
